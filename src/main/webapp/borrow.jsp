@@ -23,7 +23,7 @@
         </div>
         <div class="mb-3">
             <label for="bookName" class="form-label">Book Name:</label>
-            <input type="date" class="form-control" id="bookName" name="bookName" value="${book.name}" required>
+            <input type="text" class="form-control" id="bookName" name="bookName" value="${book.name}" required>
         </div>
         <div class="mb-3">
             <label for="studentName" class="form-label">Student Name:</label>
@@ -32,6 +32,14 @@
                     <option value="${student.id}">${student.name}</option>
                 </c:forEach>
             </select>
+        </div>
+        <div class="mb-3">
+            <label for="borrowDate" class="form-label">Borrow Date:</label>
+            <input type="date" class="form-control" id="borrowDate" name="borrowDate" required>
+        </div>
+        <div class="mb-3">
+            <label for="returnDate" class="form-label">Return Date:</label>
+            <input type="date" class="form-control" id="returnDate" name="returnDate" required>
         </div>
 
         <button type="submit" class="btn btn-primary">Borrow</button>
