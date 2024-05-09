@@ -26,7 +26,7 @@
             <input type="date" class="form-control" id="bookName" name="bookName" value="${book.name}" required>
         </div>
         <div class="mb-3">
-            <label for="studentName" class="form-label">Tên Lớp:</label>
+            <label for="studentName" class="form-label">Student Name:</label>
             <select id="studentName" name="studentName">
                 <c:forEach items="${students}" var="student">
                     <option value="${student.id}">${student.name}</option>
