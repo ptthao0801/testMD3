@@ -19,11 +19,11 @@
         <input type="hidden" name="bookId" value="${book.id}">
         <div class="mb-3">
             <label for="bookId" class="form-label">Book ID:</label>
-            <input type="text" class="form-control" id="bookId" name="nameStudent" value="${book.id}" required>
+            <input type="text" class="form-control" id="bookId" name="nameStudent" value="${book.id}" readonly>
         </div>
         <div class="mb-3">
             <label for="bookName" class="form-label">Book Name:</label>
-            <input type="text" class="form-control" id="bookName" name="bookName" value="${book.name}" required>
+            <input type="text" class="form-control" id="bookName" name="bookName" value="${book.name}" readonly>
         </div>
         <div class="mb-3">
             <label for="studentName" class="form-label">Student Name:</label>
